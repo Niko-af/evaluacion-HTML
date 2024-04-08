@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ESTILO PARA EL MENU */
+.menu-inicio {
+    width: 20%;
+    height: 100vh;
+    background-color: black;
+    float: left;
+}
+
+.menu-inicio ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0; 
+}
+
+.menu-inicio ul li {
+    margin-bottom: 10px;
+}
+
+.menu-inicio ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.menu-inicio ul li:hover a {
+    color: white;
+    background-color: rgba(0, 253, 0, 0.2);
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+
+/* ESTILO DE LOS COLORES DE INDEX Y INTEGRANTES */
+.intro, .equipo, .more-ong, .intro-inte, .vet-nombres, .enca-nombres, .secre-nombres, .coord-nombres, .gatoabajo {
+    position: relative;
+    overflow: hidden;
+}
+
+.intro {
+    background: linear-gradient(70deg, orange, pink);
+    height: 30vh;
+}
+
+.equipo {
+    background: linear-gradient(90deg, skyblue, pink);
+    height: 30vh;
+    margin: 0;
+}
+
+.more-ong {
+    background-image: linear-gradient(40deg, yellow, skyblue);
+    height: 40vh;
+}
+
+.derecha-negro {
+    width: 2%;
+    height: 100vh;
+    background-color: black;
+    float: right;
+}
+
+/* DISEÑOS H1 Y H3 */
+.intro h1, .equipo h1, .more-ong h1 {
+    margin-left: 30px;
+}
+
+.intro h3, .equipo h3, .more-ong h3 {
+    text-align: left;
+    margin: 30px;
+}
+
+/* INTEGRANTES */
+.intro-inte {
+    background: linear-gradient(60deg, pink, yellow);
+    height: 15dvh;
+}
+
+.intro-inte h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.vet-nombres h3, .enca-nombres h3, .secre-nombres h3, .coord-nombres h3 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.coord-nombres {
+    background: linear-gradient(30deg, green, skyblue);
+    height: 17dvh;
+}
+
+.vet-nombres {
+    background: linear-gradient(60deg, aquamarine, skyblue);
+    height: 17dvh;
+}
+
+.enca-nombres {
+    background: linear-gradient(170deg, #ACFA58, #2EFEF7);
+    height: 17dvh;
+}
+
+.secre-nombres {
+    background: linear-gradient(10deg, #819FF7, #5F3BF7);
+    height: 17dvh;
+}
+
+/* IMAGEN CENTRADA */
+.gatoabajo {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(yellow, blue);
+    height: 17vh;
+}

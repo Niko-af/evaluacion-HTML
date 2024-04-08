@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('img/dog.jpg') no-repeat;
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    }
+.cargo h2{
+    text-align: center;
+}
+.gato {
+    display: flex;
+    align-items: center;
+}
+
+.gato img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.gato a {
+    color: aquamarine;
+    text-align: center;
+    display: block;
+}
+    
+.perro {
+    display: flex;
+    align-items: center;
+}
+        
+.perro img{
+    width: 160px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+       
+.perro a{
+    color: aquamarine;
+    text-align: center;
+    display: block;
+}
+     
+.titulo-gatos{
+    text-align: center;
+}
+  
+.titulo-tres {
+    text-align: center;
+    margin-top: 10px;
+}
+.gatos-family {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px; 
+}
+
+.gatos-family img {
+    width: 150px;
+    margin-right: 10px;
+}
+        
+.gatos-family a {
+    color: aquamarine;
+    margin-left: 10 px;
+}
+              
+.datos img{
+    width: 150px;
+    margin: 100px;
+}
+
+.datos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+ }
+
+ 
+ .inicio-snowy .btn {
+    width: 100%;
+    height: 45px;
+    background: gray;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2)(0, 0, 0, 1);
+    cursor: pointer ;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600px;  
+
+ }
+
+ .volver-princi .btn {
+    width: 100%;
+    height: 45px;
+    background: gray;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2)(0, 0, 0, 1);
+    cursor: pointer ;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600px; 
+ }
+
+ .inicio-gatos .btn {
+    width: 100%;
+    height: 45px;
+    background: gray;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2)(0, 0, 0, 1);
+    cursor: pointer ;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600px;   
+}
+.inicio-perros .btn {
+    width: 100%;
+    height: 45px;
+    background: gray;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2)(0, 0, 0, 1);
+    cursor: pointer ;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600px;   
+}
